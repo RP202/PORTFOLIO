@@ -1,0 +1,167 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.container{
+    background-color: #222;
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height:700px;
+    width:600px;
+    background-color: white;
+    
+}
+.upper-tag{
+    height:170px;
+    width: 100%;
+    background-color: #eec0c8;
+    line-height: 1.4;
+}
+.about{
+    position: relative;
+    left:40px;
+    top:60px;
+    color: #DE3163;
+}
+.name{
+    font-family: "Poppins", sans-serif;
+  font-weight:100;
+  font-style: normal;
+  font-size: 40px;
+
+}
+.role{
+    font-weight: 100;
+    font-style: normal;
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+.pic-container{
+    background-image: url(mypic2.jpg);
+    background-size:cover;
+   height:210px;
+   width:190px;
+   box-shadow:1px 2px 2px 2px #222;
+}
+.my-pic{
+    position: absolute;
+    right:490px;
+    top:25px;
+}
+.lower-tag{
+    display: flex;
+    flex-direction:row;
+
+}
+.left{
+    height:530px;
+    width:50%;
+}
+.right{
+    height:530px;
+    width:50%;
+    background-color: #DE3163;
+}
+.aboutme-container{
+    position:relative;
+    top:75px;
+    left:40px;
+    width:250px;
+}
+.about-me,.skills{
+    color:#eec0c8;
+    font-family: "Kanit", monospace;
+    font-weight:300;
+    font-style: normal;
+    font-size:24px;
+    line-height: 1.3;
+}
+.about-me-intro,.skill-list{
+    color:#eec0c8;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-size:small;
+}
+.skills-container{
+    position: relative;
+    top:90px;
+    left:40px;
+}
+.contact{
+    font-family: "Kanit", monospace;
+    font-weight:300;
+    font-style: normal;
+    font-size:24px;
+    line-height: 1.3;
+    position: relative;
+    left:10px;
+    line-height: 1.3;
+}
+.contact-container{
+    border-radius: 20px;
+    height:80px;
+    width:200px;
+    background-color: #eec0c8;
+    color:#DE3163;
+    position: relative;
+    left:30px;
+    top:120px;
+}
+.contact-list{
+    position: relative;
+    left:10px;
+}
+.education,.edu-head{
+    position:relative;
+    top:20px;
+    left:15px;
+    color:#DE3163;
+    font-family: "Poppins", sans-serif;
+    font-weight:100;
+    font-style: normal;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    list-style: none;
+   
+}
+   .year-edu,.course-edu{
+    list-style: none;
+   }
+   
+.edu-head,.project-head{
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: underline;
+    color: #DE3163;
+}
+.projects{
+    position: relative;
+    left:20px;
+    top:30px;
+    color:#DE3163;
+    font-family: "Poppins", sans-serif;
+    font-weight:100;
+    font-style: normal;
+    line-height: 1.2;
+}
+.project-links{
+    font-size: 14px;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: #DE3163;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 10px;
+}
